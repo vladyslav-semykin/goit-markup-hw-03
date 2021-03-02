@@ -1,0 +1,260 @@
+/*============== COMPONENTS ==============*/
+
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --acent-color: #2196f3;
+  --main-color: #ffffff;
+  --btn-back-color: #188ce8;
+  --footer-backgroun-color: #2f303a;
+  --usually-text-color: #757575;
+  --headline-color: #212121;
+  --secondary-back-color: #2f303a;
+  --third-back-color: #f5f4fa;
+  --main-black-color: #000000;
+  --footer-links-color: rgba(255, 255, 255, 0.6);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.address {
+  font-style: normal;
+}
+
+body {
+  font-family: var(--main-font);
+  background: var(--main-color);
+}
+
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--acent-color);
+}
+
+.header-accent {
+  color: var(--main-black-color);
+}
+
+.footer-accent {
+  color: var(--main-color);
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--headline-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--acent-color);
+}
+
+.current {
+  color: var(--acent-color);
+}
+
+.contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--usually-text-color);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--acent-color);
+}
+
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--headline-color);
+}
+
+.location {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+.main-header {
+  background: var(--main-color);
+}
+
+.our-job-image {
+  background: var(--main-color);
+}
+
+.team {
+  background: var(--third-back-color);
+}
+
+.contacts-link-footer {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--footer-links-color);
+}
+
+.contacts-link-footer:hover,
+.contacts-link-footer:focus {
+  color: var(--acent-color);
+}
+
+/*============== END COMPONENTS ==============*/
+
+/*============== HERO PAGE 1 ==============*/
+
+.hero {
+  background: var(--secondary-back-color);
+}
+
+.modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: var(--main-color);
+  background: var(--acent-color);
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background: var(--btn-back-color);
+}
+
+.advertising-name {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+
+/*============== END HERO PAGE 1 ==============*/
+
+/*============== ABOUT ==============*/
+
+.about {
+  background: var(--main-color);
+}
+
+.about-main-name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--headline-color);
+}
+
+.about-us {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--usually-text-color);
+}
+
+/*============== END ABOUT ==============*/
+
+/*============== TEAM ==============*/
+
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--headline-color);
+}
+
+.team-member-skills {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--usually-text-color);
+}
+
+/*============== END TEAM ==============*/
+
+/*============== HERO PAGE 2 ==============*/
+
+.hero-pg2 {
+  background: var(--main-color);
+}
+
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--headline-color);
+  cursor: pointer;
+  background: #f5f4fa;
+}
+
+.btn:hover,
+.btn:focus {
+  color: var(--main-color);
+  background-color: var(--acent-color);
+}
+
+/*============== END HERO PAGE 2 ==============*/
+
+/*============== SERVICES ==============*/
+
+.services-link {
+  background: var(--main-color);
+}
+
+.services-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--headline-color);
+}
+
+.about-services {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--usually-text-color);
+}
+
+/*============== END SERVICES ==============*/
+
+footer {
+  background: var(--footer-backgroun-color);
+}
