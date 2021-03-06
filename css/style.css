@@ -1,4 +1,33 @@
-/*============== COMPONENTS ==============*/
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
 
 :root {
   --main-font: "Roboto", sans-serif;
@@ -30,15 +59,6 @@
 body {
   font-family: var(--main-font);
   background: var(--main-color);
-}
-
-.logo {
-  font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--acent-color);
 }
 
 .header-accent {
@@ -96,10 +116,6 @@ body {
   color: var(--main-color);
 }
 
-.main-header {
-  background: var(--main-color);
-}
-
 .our-job-image {
   background: var(--main-color);
 }
@@ -121,7 +137,52 @@ body {
   color: var(--acent-color);
 }
 
-/*============== END COMPONENTS ==============*/
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+/*============== MAIN HEADER ==============*/
+
+.main-header {
+  background: var(--main-color);
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.contacts-list {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--acent-color);
+}
+
+/*============== END MAIN HEADER ==============*/
 
 /*============== HERO PAGE 1 ==============*/
 
@@ -220,7 +281,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--headline-color);
   cursor: pointer;
-  background: #f5f4fa;
+  background: var(--third-back-color);
 }
 
 .btn:hover,
@@ -254,6 +315,19 @@ body {
 }
 
 /*============== END SERVICES ==============*/
+
+/*============== LOGO FOOTER ==============*/
+
+.logotype-footer {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--acent-color);
+}
+
+/*============== END LOGO FOOTER ==============*/
 
 footer {
   background: var(--footer-backgroun-color);
